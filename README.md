@@ -25,66 +25,20 @@ A partir da narrativa fornecida, todas as entidades, relacionamentos e atributos
 
 ---
 
-## **Esquema Conceitual**
+## **Estrutura Proposta do Esquema**
 
-### **Entidades e Atributos**
-
-1. **Cliente**
-   - ID (Chave Primária)
-   - Nome
-   - Telefone
-   - Endereço
-
-2. **Veículo**
-   - ID_Veículo (Chave Primária)
-   - Marca
-   - Modelo
-   - Ano
-   - Placa
-   - ID_Cliente (Chave Estrangeira)
-
-3. **Mecânico**
-   - ID_Mecânico (Chave Primária)
-   - Nome
-   - Endereço
-   - Especialidade
-
-4. **Ordem de Serviço (OS)**
-   - Número_OS (Chave Primária)
-   - Data_Emissão
-   - Data_Conclusão
-   - Valor_Total
-   - Status
-   - ID_Veículo (Chave Estrangeira)
-   - ID_Equipe (Chave Estrangeira)
-
-5. **Serviço**
-   - ID_Serviço (Chave Primária)
-   - Descrição
-   - Valor_Mão_de_Obra
-
-6. **Peça**
-   - ID_Peça (Chave Primária)
-   - Nome
-   - Valor
-
-7. **Equipe**
-   - ID_Equipe (Chave Primária)
-   - Nome_Equipe
-
-8. **Equipe_Mecânico** (Relacionamento para equipes e mecânicos)
-   - ID_Equipe (Chave Estrangeira)
-   - ID_Mecânico (Chave Estrangeira)
-
-9. **Serviço_OS**
-   - Número_OS (Chave Estrangeira)
-   - ID_Serviço (Chave Estrangeira)
-   - Quantidade
-
-10. **Peça_OS**
-    - Número_OS (Chave Estrangeira)
-    - ID_Peça (Chave Estrangeira)
-    - Quantidade
+| **Entidade**     | **Atributos**                                                                                     |
+|------------------|--------------------------------------------------------------------------------------------------|
+| **Cliente**      | ID, Nome, Telefone, Endereço                                                                     |
+| **Veículo**      | ID_Veículo, Marca, Modelo, Ano, Placa, ID_Cliente                                                |
+| **Mecânico**     | ID_Mecânico, Nome, Endereço, Especialidade                                                       |
+| **Ordem de Serviço (OS)** | Número_OS, Data_Emissão, Data_Conclusão, Valor_Total, Status, ID_Veículo, ID_Equipe      |
+| **Serviço**      | ID_Serviço, Descrição, Valor_Mão_de_Obra                                                         |
+| **Peça**         | ID_Peça, Nome, Valor                                                                            |
+| **Equipe**       | ID_Equipe, Nome_Equipe                                                                          |
+| **Equipe_Mecânico** | ID_Equipe, ID_Mecânico                                                                        |
+| **Serviço_OS**   | Número_OS, ID_Serviço, Quantidade                                                               |
+| **Peça_OS**      | Número_OS, ID_Peça, Quantidade                                                                  |
 
 ---
 
