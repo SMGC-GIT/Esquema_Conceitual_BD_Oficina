@@ -69,3 +69,18 @@ Agradeço à equipe da **DIO** e **HEINEKEN** pela oportunidade de participar de
 Este projeto reflete o aprendizado prático e meu compromisso com boas práticas na área de tecnologia.
 
 ---
+
+## Contato
+
+Para dúvidas ou sugestões, entre em contato:
+- **E-mail:** (sguimaraes1004@gmail.com)
+- **Redes Sociais:** (https://www.linkedin.com/in/silvia-maria-guimar%C3%A3es-costa-3a01b423b)
+
+---
+
+🍺 _A parceria com a Heineken reforça o compromisso de promover a inovação e o aprendizado na área de tecnologia._
+
+---
+
+
+# ![DIO Logo](https://hermes.digitalinnovation.one/assets/diome/logo.png)
